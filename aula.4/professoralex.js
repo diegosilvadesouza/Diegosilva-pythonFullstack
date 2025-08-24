@@ -42,18 +42,18 @@ while (true) {
 
   if (escolha === "1") {
     nomeJogador = "Snorlax";
-    nomeInimigo = "Chnasei";
+    nomeInimigo = "Chansei";
     vidaJogador = 100;
     vidaInimigo = 100;
     console.log(" Snorlax abre um olho lentamente... parece que ele está pronto para lutar.");
-    console.log(" Um Rattata selvagem apareceu!");
-  } else if (escolha === "2") {
+    console.log(" Um Chansei selvagem apareceu!");
+  } else if (escolha === "2") {0
     nomeJogador = "Gengar";
     nomeInimigo = "Alakazan";
     vidaJogador = 100;
     vidaInimigo = 100;
-    console.log("🌫️ A sombra de Gengar se move sorrateiramente... você sente um arrepio.");
-    console.log("🦇 Um Zubat selvagem voa em sua direção!");
+    console.log(" A sombra de Gengar se move sorrateiramente... você sente um arrepio.");
+    console.log(" Um Alakazan selvagem voa em sua direção!");
   } else if (escolha === "3") {
     nomeJogador = "Pikachu";
     nomeInimigo = "Meowth";
@@ -66,8 +66,8 @@ while (true) {
     nomeInimigo = "Lapras";
     vidaJogador = 100;
     vidaInimigo = 100;
-    console.log("🥷 Greninja observa silenciosamente o horizonte. A batalha se aproxima.");
-    console.log(" Um Oddish selvagem surge entre as folhas!");
+    console.log(" Greninja observa silenciosamente o horizonte. A batalha se aproxima.");
+    console.log(" Um Lapras selvagem surge entre mar!");
   } else {
     console.log(" Escolha inválida. Tente novamente.");
     continue;
@@ -78,7 +78,7 @@ while (true) {
   console.log(" A tensão está no ar. Está pronto para lutar ou prefere recuar?");
   const iniciar = prompt(" Pressione qualquer tecla para iniciar a batalha ou digite 'sair' para fugir: ");
   if (iniciar === "sair") {
-    console.log("🏃‍♂️ Você optou por recuar. A batalha foi evitada... por enquanto.\n");
+    console.log(" Você optou por recuar. A batalha foi evitada... por enquanto.\n");
     continue;
   }
 
