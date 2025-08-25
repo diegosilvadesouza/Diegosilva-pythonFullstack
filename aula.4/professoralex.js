@@ -14,11 +14,19 @@ while (true) - deixar jogo rodando ate usario resolver sair
 if , el if . else 
 
 */
-const prompt = require("prompt-sync")();
- // achei apropriado usar const aqui como nao estamos usando arrays acho que vai garantir que codigo rode bem
-console.log(" Olá, treinador! Bem-vindo ao mundo Pokémon, meu nome professor alexo!");
-const nomeTreinador = prompt("Qual é o seu nome? ");
-console.log(` Muito bem, ${nomeTreinador}! Sua jornada começa agora.\n`);
+const prompt = require("prompt-sync")(); 
+// achei apropriado usar const aqui como nao estamos usando arrays acho que vai garantir que codigo rode bem
+
+// função para pedir nome do usuário
+function obterNomeDoUsuario() {
+  console.log(" Olá, treinador! Bem-vindo ao mundo Pokémon, meu nome professor alexo!");
+  const nome = prompt("Qual é o seu nome? ");
+  console.log(` Muito bem, ${nome}! Sua jornada começa agora.\n`);
+  return nome;
+}
+
+const nomeTreinador = obterNomeDoUsuario();
+
 
 //  while (true) deixar jogo rodando ate usario resolver sair
 // aqui usario escolher pokémon de sua prefrencia (JURO QUE NÃO E PARA PUXA SACO DOUGLAS KKK)
