@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reinos Perdidos - MMO RPG</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="..\static\css\portifólio.css">
+  
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark"><!--navbar: ativa o estilo de barra de navegação do Bootstrap.
+  
+navbar-expand-lg: a navbar se expande em telas grandes (desktop) e vira menu hambúrguer em telas pequenas.
+
+navbar-dark bg-dark: cores escuras para fundo e texto (modo noturno).-->
+    <div class="container">
+      <iframe width="360" height="115" src="https://www.youtube.com/embed/gMxQ8vxH9Vk?si=tFRDc-ujVPw5L18G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+      <a class="navbar-brand destaque-logo" href="#">Portfólio.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><!--Cria o botão que aparece em telas pequenas.
+data-bs-toggle="collapse" e data-bs-target="#navbarNav" controlam a abertura/fechamento do menu.-->
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#Início">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Projetos">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<header class="hero text-center text-white d-flex align-items-center justify-content-center">
+<section id="Sobre" class="py-5 bg-light text-center espacamento-secao"></section>
+    <div class="container">
+      <h1 class="display-1 fw-bold titulo-animado"><em>Olá, meu nome é
+Diego silva</em></h1>
+    </div>
+  </header>
+
+  <div class="container">
+    
+    <h1 class="mb-4"><em>Sobre Mim</em></h1>
+    <p class="lead">Olá! Meu nome é Diego Silva, tenho 34 anos e moro no Rio de Janeiro. Sou formado em Montagem e Manutenção de Computadores, e atualmente estou cursando Desenvolvimento Full Stack no Senac RJ.
+
+Sou uma pessoa inteligente, comunicativa e com grande facilidade de aprendizado. Tenho paixão por tecnologia e estou sempre em busca de novos conhecimentos para evoluir profissionalmente. Acredito que o aprendizado contínuo é a chave para crescer e se destacar em qualquer área.
+
+Meu objetivo é atuar como desenvolvedor full stack, contribuindo com soluções criativas, eficientes e que façam a diferença. Estou preparado para enfrentar desafios, trabalhar em equipe e transformar ideias em projetos reais..</p>
+  </div>
+</section>
+
+  <div class="container py-5 px-4 ">
+    
+    <table class="table table-bordered table-striped">
+      <thead class="table-dark">
+<section id="Habilidades" class="py-5 bg-light text-center espacamento-secao text-center mb-5 display-5 fw-bold">💻 Minhas Habilidades Técnicas</section>
+        <tr>
+          <th>Área</th>
+          <th>Tecnologia</th>
+          <th>Nível de Conhecimento</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Programação</td>
+          <td>Python</td>
+          <td>Médio</td>
+        </tr>
+        <tr>
+          <td>Desenvolvimento Web</td>
+          <td>HTML</td>
+          <td>Iniciante</td>
+        </tr>
+        <tr>
+          <td>Desenvolvimento Web</td>
+          <td>JavaScript</td>
+          <td>Iniciante</td>
+        </tr>
+        <tr>
+          <td>Montagem e manutenção</td>
+          <td>computadores</td>
+          <td>Avançado</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+<div class="container my-5">
+<section id="Projetos" class="py-5 bg-light text-center espacamento-secao text-center mb-5 display-5 fw-bold">Projetos</section>
+  <a class="navbar-brand destaque-logo text-center d-flex align-items-center justify-content-center" href="#"></a>
+  <a href="..\templatis\paginaprincipal.html"  class="btn btn-primary mb-1 text-center d-flex align-items-center justify-content-center" ><em><img src="..\static\img\meu site.png" class="img-fluid" alt="10px"></em></a>
+
+
+</div>
+<div class="container my-5">
+<section id="Projetos" class="py-5 bg-light text-center espacamento-secao text-center mb-5 display-5 fw-bold">Contatos</section>
+    <form action="/enviar-contato" method="post" class="p-4 border rounded bg-light">
+
+      
+      <div class="mb-3">
+        <label for="nome" class="form-label">Nome:</label>
+        <input type="text" id="nome" name="nome" class="form-control" required placeholder="Digite seu nome completo">
+      </div>
+
+      
+      <div class="mb-3">
+        <label for="email" class="form-label">E-mail:</label>
+        <input type="email" id="email" name="email" class="form-control" required placeholder="seunome@email.com">
+      </div>
+
+      
+      <div class="mb-3">
+        <label for="mensagem" class="form-label">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" class="form-control" required placeholder="Escreva sua mensagem aqui..."></textarea>
+      </div>
+
+      
+      <fieldset class="mb-3">
+        <legend class="form-label">O que você achou do site?</legend>
+        <div class="form-check">
+          <input type="radio" id="gostei" name="feedback" value="gostei" class="form-check-input" required>
+          <label for="gostei" class="form-check-label">Gostei</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" id="nao-gostei" name="feedback" value="nao-gostei" class="form-check-input">
+          <label for="nao-gostei" class="form-check-label">Não Gostei</label>
+        </div>
+      </fieldset>
+
+      
+      <div class="form-check mb-4">
+        <input type="checkbox" name="termos" class="form-check-input" id="termos" required>
+        <label for="termos" class="form-check-label">Eu concordo com os termos de uso (obrigatório).</label>
+      </div>
+
+      
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary px-5">Enviar</button>
+      </div>
+
+    </form>
+  <section id="Contato" class="py-5 bg-light text-center espacamento-secao"></section>
+  </div>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Bbshark. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
